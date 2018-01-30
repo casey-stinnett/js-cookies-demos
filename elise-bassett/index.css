@@ -1,0 +1,240 @@
+/***********Static Css*************/
+body {
+	background-color: rgb(33, 33, 33);
+	font-family: Futura;
+
+
+}
+
+body::after {
+	content: '';
+	display: inline-block;
+	width: 1000px;
+	height: 500px;
+	background-color: tan;
+	z-index: -17;
+	position: absolute;
+	top: 20%;
+	left: 15%;
+}
+
+/*cookies*/
+
+#lemon {
+	background-image: radial-gradient(farthest-corner at 40px 40px,
+      rgb(232, 237, 215) 0%, rgb(242, 212, 106) 100%); 
+}
+
+#chip {
+	background-image: radial-gradient(farthest-corner at 40px 40px,
+      rgb(255, 221, 162) 0%, rgb(247, 157, 51) 100%);
+}
+
+#sugar {
+	background-image: radial-gradient(farthest-corner at 40px 40px,
+      rgb(255, 221, 162) 0%, rgb(247, 157, 51) 100%);
+
+}
+
+.cookie {
+	height: 100px;
+	width: 105px;
+	border-radius: 100px;
+	box-shadow: 8px 8px 5px grey;
+}
+
+#sugar::before {
+	content:'';
+	width: 86px;
+	height: 84px;
+	opacity: 0.8;
+	border-radius: 100px;
+	background-color: pink;
+	display: inline-block;
+	background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=ed347e00&noise=fcfcfc&density=23&opacity=66);
+
+}
+/*Chips*/
+.chip {
+	display: inline-block;
+	height: 0px;
+}
+
+#chip_one {
+	display: inline-block;
+	height: 0px;
+	width: 5px;
+    border-top: 6px solid black;
+    border-left: 1px solid transparent;
+    border-right: 3px solid transparent;
+    position: relative;
+    top: 30px;
+    left: 15%;
+}
+
+#chip_two {
+	height: 0px;
+	width: 1px;
+    border-bottom: 8px solid black;
+    border-left: 2px solid transparent;
+    border-right: 1px solid transparent;
+    position: relative;
+    top: 1px;
+    left: 34px;
+}
+
+#chip_three {
+	height: 0px;
+	width: 1px;
+    border-bottom: 5px solid black;
+    border-left: 4px solid transparent;
+    border-right: 0px solid transparent;
+    position: relative;
+    top: 70px;
+    right: 11px;
+}
+
+#chip_four {
+	height: 0px;
+	width: 1px;
+    border-bottom: 7px solid black;
+    border-left: 4px solid transparent;
+    border-right: 6px solid transparent;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+#chip_five {
+	height: 0px;
+	width: 1px;
+    border-top: 9px solid black;
+    border-left: 4px solid transparent;
+    border-right: 2px solid transparent;
+    position: relative;
+    top: 22px;
+    left: 32px;
+}
+
+#chip_six {
+	height: 0px;
+	width: 1px;
+    border-top: 9px solid black;
+    border-left: 4px solid transparent;
+    border-right: 3px solid transparent;
+    position: relative;
+    top: 58px;
+    right: 31px;
+}
+
+#chip_seven {
+	height: 0px;
+	width: 1px;
+    border-bottom: 9px solid black;
+    border-left: 4px solid transparent;
+    border-right: 3px solid transparent;
+    position: relative;
+    top: 78px;
+    right: 17px;
+}
+
+#chip_eight {
+	height: 0px;
+	width: 1px;
+    border-bottom: 4px solid black;
+    border-left: 0px solid transparent;
+    border-right: 3px solid transparent;
+    position: relative;
+    top: 30px;
+    right: 35px;
+}
+
+#chip_nine {
+	height: 0px;
+	width: 6px;
+    border-bottom: 4px solid black;
+    border-left: 0px solid transparent;
+    border-right: 3px solid transparent;
+    position: relative;
+    top: 9px;
+    right: 71px;
+}
+
+
+/*Cookie Groupings*/
+.gallery {
+	display: inline-block;
+	vertical-align: top;
+	margin: 50px;
+}
+
+.counter {
+	position: relative;
+	top: 15px;
+}
+
+.cookie_jar {
+	text-align: center;
+}
+
+/*Trash*/
+.trash {
+	height: 0;
+    width: 60px;
+    border-top: 120px solid grey;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+	position: relative;
+	top: 30px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.trash::after {
+	content:'';
+	display: inline-block;
+	height: 0;
+    width: 60px;
+    border-top: 120px solid rgb(51,51,51);
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+	position: relative;
+	bottom: 210px;
+	right: 38px;
+	opacity: 0.8;
+	margin: 0 auto;
+}
+
+.trash h3 {
+	text-align: center;
+	color: white;
+	position: relative;
+	top: -109px;
+	z-index: 0;
+}
+
+/*Mouth*/
+
+.mouth {
+	height: 138px;
+	width: 164px;
+	background-color: red;
+	border-radius: 100px 100px 100px 100px;
+	margin: 0 auto;
+}
+
+.mouth::after {
+	content: '';
+	display: inline-block;
+	height: 88px;
+	width: 152px;
+	background-color: black;
+	border-radius: 100px 100px 100px 100px;
+	position: relative;
+	border-bottom: 10px solid white;
+	border-top: 10px solid white;
+	top: 12px;
+	left: 6px;
+}
+
+
