@@ -1,0 +1,144 @@
+html, body {
+	background-image: url(cookieImage/space.gif);
+	height: 100%;
+	width: 100%;
+}
+
+#monster {
+	background-image: url(cookieImage/invaderking.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 381px;
+	height: 425px;
+	left: 35%;
+}
+
+#monsterBox {
+	position: relative;
+	height: 500px;
+}
+
+#monsterBoom {
+	position: absolute;
+	left: 45%;
+	top: 15%;
+	opacity: 0;
+}
+
+#bigBox {
+	position: relative;
+	left: 279px;
+}
+
+.grouping {
+	position: absolute;
+	height: 400px;
+	width: 65%;
+
+}
+
+.ship {
+	float: left;
+	width: 20%;
+	height: 250px;
+	margin: 0px 50px;
+	color: white;
+	box-sizing: border-box;
+}
+
+.shipText {
+	text-align: center;
+}
+
+#clearClick {
+	display: inline-block;
+	background-color: red;
+	width: 200px;
+	height: 80px;
+	border-radius: 7px;
+	text-align: center;
+}
+
+.boom {
+	opacity: 0;
+	float: left;
+	width: 20%;
+	height: 250px;
+	margin: 0px 50px;
+	color: white;
+	box-sizing: border-box;
+}
+
+.laser-beam {
+	position: absolute;
+	background: rgba(99,195,231,0.6);
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(99,195,231,1);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(99,195,231,1);
+	box-shadow: 0px 0px 15px 0px rgba(99,195,231,1);
+}
+
+.monsterLaser {
+	position: absolute;
+	border-radius: 50%;
+	background: rgba(99,195,231,0.6);
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(99,195,231,1);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(236,19,65,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(236,19,65,1);
+    box-shadow: 0px 0px 15px 0px rgba(236,19,65,1);
+}
+
+#revenge1 {
+	opacity: 0;
+	left: 38%;
+	bottom: -80px;
+	width: 5px;
+	height: 450px;
+	border-radius: 50%;
+	transform: rotate(-140deg);
+}
+
+#revenge2 {
+	opacity: 0;
+	left: 49%;
+	bottom: -35px;
+	width: 5px;
+	height: 364px;
+	border-radius: 50%;
+}
+
+#revenge3 {
+	opacity: 0;
+	left: 59%;
+	bottom: -80px;
+	width: 5px;
+	height: 450px;
+	border-radius: 50%;
+	transform: rotate(-220deg);
+}
+
+#ship1death {
+	opacity: 0;
+	left: 34%;
+	bottom: -96px;
+	width: 5px;
+	height: 375px;
+	transform: rotate(-159deg);
+}
+
+#ship2death {
+	opacity: 0;
+	left: 44%;
+	bottom: -96px;
+	width: 5px;
+	height: 375px;
+	transform: rotate(-198deg);
+}
+
+#ship3death {
+	opacity: 0;
+	left: 63%;
+	bottom: -96px;
+	width: 5px;
+	height: 375px;
+	transform: rotate(-196deg);
+}
